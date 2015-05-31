@@ -1,0 +1,17 @@
+<Settings>
+    <!-- Ignore file types while making release -->
+    <ignore>.vb|.config|.vbproj|aspnet_client</ignore>
+    
+    <!-- NOTE: Build should have project folders having bin sub-folder and need to be given in release -->
+    <build>
+        <folders>
+            <folder>XYZRootWebApp</folder>
+            <folder>XYZApp</folder>
+        </folders>
+    </build>
+    
+    <!-- Location Of SQL Folder & Keep SQL Folder At The Same Level Of Solution -->
+    <sql>        
+        <folder>DBChanges</folder>        
+    </sql>
+</Settings>
